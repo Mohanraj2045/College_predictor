@@ -1,5 +1,5 @@
 # College_predi
-he proposed system is a web-based college predictor platform designed to assist students in
+The proposed system is a web-based college predictor platform designed to assist students in
  navigating the college admissions process. It features an intuitive interface where users can input
  detailed data, including academic achievements in subjects like physics, math, and chemistry, as
  `well as extracurricular involvements and community background. Utilizing advanced machine
