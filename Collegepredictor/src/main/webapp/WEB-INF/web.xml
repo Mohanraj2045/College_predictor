@@ -1,0 +1,57 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  
+  <servlet>
+  <servlet-name>setlogin</servlet-name>
+  <servlet-class>logins.login</servlet-class>  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>setlogin</servlet-name>
+  <url-pattern>/setlogin</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  <servlet>
+  <servlet-name>setsignin</servlet-name>
+  <servlet-class>logins.signin</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  <servlet-name>setsignin</servlet-name>
+  <url-pattern>/setsignin</url-pattern>
+  </servlet-mapping>
+  
+  
+  <filter>
+  <filter-name>verifylogin</filter-name>
+  <filter-class>logins.verLog</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  <filter-name>verifylogin</filter-name>
+  <url-pattern>/setlogin</url-pattern>
+  </filter-mapping>
+
+<filter>
+<filter-name>verifysignin</filter-name>
+<filter-class>logins.verSign</filter-class>
+</filter>
+
+<filter-mapping>
+<filter-name>verifysignin</filter-name>
+<url-pattern>/setsignin</url-pattern>
+</filter-mapping>
+
+<servlet>
+<servlet-name>getColleges</servlet-name>
+<servlet-class>college.Reciveclg</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>getColleges</servlet-name>
+<url-pattern>/getColleges</url-pattern>
+</servlet-mapping>
+
+</web-app>

@@ -1,0 +1,278 @@
+@charset "UTF-8";
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-color: rebeccapurple ; 
+    margin-top: 0;
+    height: 68px;
+    display: flex;
+}
+
+#header h1{
+    background-color :  transparent;
+    display: inline-block;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size:20px;
+    transform: scale(1, 1.5);
+    font-family: "Cinzel";
+
+    
+}
+
+#header a {
+
+    background-color: transparent;
+    text-decoration: none;
+    color:white;
+    font-family:  "Orbitron";
+    display: inline-block;
+    font-weight: bolder;
+    margin-left: 25px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+    text-decoration: none;
+
+}
+
+#header a:hover {
+    color: rgb(0, 0 ,0);
+    cursor: pointer;
+}
+
+#header a#wel {
+    
+    margin-left: 25px;
+    
+}
+
+#header #userdisplay {
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 580px;
+    display: inline-block;
+    display: flex;
+    background-color: transparent;
+    margin-bottom: 10px;
+
+}
+
+#header #userdisplay #userimg {
+    margin-left: 10px;
+    margin-right: 0px;
+
+}
+
+
+#header #userdisplay #username {
+
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    margin-top: 0px;
+    font-family: "Cinzel";
+    letter-spacing: 4px;
+    text-align: center;
+    background-color: rebeccapurple;
+    width:240px;
+    margin-left: 0px; 
+    height: 26px ;   
+    padding-top:4px ;
+    width: 140px;
+}
+
+#header #userdisplay #username:hover {
+    background-color: black;
+    color:rebeccapurple ;
+    
+}
+.header-slider{
+    height: 400px;
+    display: inline-block;
+}
+
+.header-slider ul{
+
+    display: flex;
+    overflow-x: hidden;
+
+}
+
+.header-img{
+
+    max-width: 100%;
+    max-height: 300px;
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+
+}
+.header-slider a{
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    padding: 5vh 1vw;
+    background: #ffffff4f;
+    color: #0000007b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+
+}   
+
+.control-next{
+    right: 0;
+
+}
+
+#forminterface {
+    height: 700px;
+    background-image: url("images/study5.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size:cover;
+    margin-top: 0px;
+    
+}
+
+#forminterface form {
+    background-color: transparent;
+    display: inline-block;
+    margin-left: 170px;
+    height: 350px;
+    margin-top:60px;
+    width: 330px;
+    text-align: center  ;
+}
+
+
+#forminterface h1 ,#forminterface form label {
+
+    background-color: transparent;
+
+
+}
+
+
+#forminterface form label {
+
+    width: 120px;
+    background-color: transparent;
+    display: inline-block;
+    margin-top: 20px;
+    height: 27px;
+    text-align: left;
+    padding-top: 3px;
+    font-family: "Orbitron";
+    font-weight: bolder;
+    color: white;
+
+
+
+
+}
+
+#forminterface form  input{
+    height: 28px;
+    border-width: 2px;
+    text-align: center;
+    width: 200px;
+    background-color: transparent;
+    border-color: rebeccapurple;
+    font-family: "Cinzel";
+    font-weight: bolder;
+    font-size: large ;
+    color: white;
+
+
+}
+
+#forminterface form #comtitle{
+    margin-top: 50px;
+}
+#forminterface h1 {
+    background-color: rebeccapurple;
+    font-family:"Cinzel"  ;
+    color: white;
+    width: 330px;
+
+    
+}
+
+#forminterface form  #submit {
+    width: 330px;
+    background-color: rebeccapurple;
+    margin-top: 30px;
+    color: white;
+    border: none;
+
+
+}
+
+#collegeList {
+	background-color: rgb(21, 17, 18);
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#collegeList #clgshead {
+    background-color: rebeccapurple;
+    font-family:"Cinzel"  ;
+    display: inline-block;
+    margin-left: 560px;
+    margin-bottom: 10px;
+
+}
+#collegeList  p {
+    display: inline-block;
+    letter-spacing: 2px;
+    font-family: "Cinzel";
+
+}
+
+
+#collegeList #clgnamehead , #collegeList #clgcodehead  , #collegeList #noclgs {
+    margin-left: 100px;
+    margin-bottom: 30px;
+    color: rebeccapurple;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+#collegeList #clgcodehead{
+    margin-left: 1030px;
+}
+
+#collegeList  .clgname {
+  
+    margin-right:100px ;
+    float: left;
+    margin-left: 100px;
+    color: rebeccapurple;
+    font-weight: bolder;
+    width: 1156px;
+    height: 60px;
+    background-color: transparent;
+
+}
+
+#collegeList  .clgcode {
+    color: rebeccapurple;
+    font-weight: bolder;
+    height: 60px;
+
+}
+
+#collegeList #noclgs {
+    margin-left: 585px;
+    margin-top: 90px;
+    letter-spacing: 10px;
+}
+

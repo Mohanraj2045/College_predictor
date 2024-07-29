@@ -1,0 +1,131 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    background-color:rebeccapurple; 
+    margin-top: 0;
+    height: 68px;
+    display: flex;
+ }
+
+#header h1{
+    background-color :  transparent;
+    display: inline-block;
+    color: white;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size:20px;
+    transform: scale(1, 1.5);
+    font-family: "Cinzel";
+
+
+}
+
+#header a#login , #header a#signin{
+
+    background-color:  rgb(35, 2, 255);    ;
+    text-decoration: none;
+    color:white;
+    font-family:  "Cinzel";
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 24px;
+    width: 70px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#header a#login {
+    margin-left: 1050px;
+    background-color: white;
+    color: rebeccapurple;
+}
+#header a#login:hover , #header a#signin:hover {
+    color: rgb(17, 0, 127);
+    background-color:white ;
+    cursor: pointer;
+}
+
+#topic {
+    margin-top: 50px;
+}
+
+#topic h1 {
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    font-family: "Orbitron";
+    color: rgb(0, 177, 247) ;
+    letter-spacing: 10px;
+    font-weight: bolder;
+}
+.log {
+    display: flex;
+    background-color: white;
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-top: 75px;
+    margin-left: 535px ;
+    padding-top: 50px;
+    height: 180px;
+}
+
+.log form {
+    background-color: transparent;
+}
+
+.log form label {
+    background-color: transparent;
+    display: inline-block;
+    color: rebeccapurple;
+    font-family :'Times New Roman', Times, serif;
+    height:20px;
+    width: 70px;
+    margin-bottom: 40px;
+
+}
+
+.log {
+    border-radius: 5px;
+    border-style:ridge;
+    border-color: rebeccapurple;    
+}
+#submit {
+    background-color: rebeccapurple;
+    color:white ;
+    width: inherit;
+    float: right;
+    margin-right: 17px;
+    width: 100px;
+    padding-left: 1px;
+    border-radius:  4px;
+}
+
+#submit:hover {
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+
+
+.log form input {
+    border: 0px;
+    background-color: rebeccapurple;
+    color: black;
+    height: 30px;
+    width: 300px;
+    margin-top: 3px;
+    font-size: medium;
+    border-style:groove;
+    border-width: 2px;
+    border-color: rgb(1, 1, 1);
+    padding-left: 8px;
+}
+
